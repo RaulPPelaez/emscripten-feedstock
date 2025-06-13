@@ -44,7 +44,7 @@ requirements:
     - clangxx {{ llvm_version }}.*
     - llvm-tools {{ llvm_version }}.*
   run:
-    - python *
+    - python
     - {{ pin_compatible("binaryen", max_pin="x") }}
     - nodejs >={{ min_nodejs }}
     - lld {{ llvm_version }}.*
