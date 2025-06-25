@@ -1,6 +1,6 @@
 # TODO: check what LLVM hash emscripten requires later on
 {% set version = "4.0.9" %}
-{% set llvm_version = "19" %}
+{% set llvm_version = "20" %}
 
 # we just use a version here; doesn't seem to have much impact
 {% set min_nodejs = "20" %}
