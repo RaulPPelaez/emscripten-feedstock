@@ -14,7 +14,7 @@ source:
   sha256: 11a7d950453ee31da03ee3c3b261934ad3d7d2e470e41ea3222a13cecb9b98ef
 
 build:
-  number: 4
+  number: 0
   string: h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - python *
